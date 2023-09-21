@@ -1,8 +1,14 @@
+package Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.ArrayList;
 
 import org.junit.jupiter.api.Test;
+
+import Control.PlacerLogic;
+import Control.Utility;
+import Model.AllyShip;
+import Model.EnemyShip;
 
 class PlacerLogicTest {
 	/*

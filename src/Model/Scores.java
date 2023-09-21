@@ -1,3 +1,4 @@
+package Model;
 import java.io.Serializable;
 
 public class Scores implements Observer,DisplayScores,Serializable {

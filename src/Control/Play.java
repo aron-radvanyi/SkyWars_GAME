@@ -1,3 +1,4 @@
+package Control;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,6 +13,13 @@ import java.util.TreeMap;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
+import Model.AllyShip;
+import Model.DefensiveMode;
+import Model.EnemyShip;
+import Model.Observable;
+import Model.OffensiveMode;
+import Model.Scores;
+
 /*
  * The Play class facilitates the main game. 
  * Ship initialisation, moving, placing and ship interaction/fight is happening here using 
@@ -19,7 +27,7 @@ import javax.swing.JOptionPane;
  */
 public class Play implements Observable, Serializable {
 
-	Play() {
+	public Play() {
 	};
 
 	private ArrayList<Scores> theScores = new ArrayList<Scores>();

@@ -1,3 +1,4 @@
+package Model;
 public abstract class EnemyShip extends Ship {
 
 	private String type;	

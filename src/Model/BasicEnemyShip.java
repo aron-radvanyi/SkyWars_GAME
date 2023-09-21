@@ -1,4 +1,4 @@
-
+package Model;
 public class BasicEnemyShip extends EnemyShip  {
 
 	public BasicEnemyShip(String type, int row, int square) {

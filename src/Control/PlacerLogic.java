@@ -1,3 +1,4 @@
+package Control;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.io.Serializable;
@@ -5,6 +6,14 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
+
+import Model.AllyShip;
+import Model.AllyShipMode;
+import Model.DefensiveMode;
+import Model.EnemyShip;
+import Model.Grid;
+import Model.MasterShip;
+import Model.Ship;
 
 /*
  * This class has the logic to place and move the allyShips and EnemyShips on the grid. 

@@ -1,4 +1,4 @@
-
+package Model;
 public abstract class AllyShip extends Ship {
 
 	private String type;

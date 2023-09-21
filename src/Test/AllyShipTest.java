@@ -1,6 +1,11 @@
+package Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import Model.AllyShip;
+import Model.AllyShipMode;
+import Model.DefensiveMode;
 
 class AllyShipTest {
 

@@ -1,9 +1,17 @@
+package Control;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.TreeMap;
 
 import javax.swing.ImageIcon;
+
+import Model.EnemyShip;
+import Model.BattleCruiser;
+import Model.BattleShooter;
+import Model.BattleStar;
+import Model.EnemyShip;
+import Model.BasicEnemyShip;
 
 /*
  * The Utility class is a helper class for all other classes by facilitating methods which are comonly used more than once.
@@ -57,7 +65,7 @@ public class Utility implements Serializable {
 	public ArrayList<ImageIcon> getGalaxyPictures() {
 		ArrayList<ImageIcon> theGalaxyIcons = new ArrayList<>();
 		for (int i = 1; i <= 16; i++) {
-			String file = String.format("resources/galaxy%d.png", i);
+			String file = String.format("/resources/galaxy%d.png", i);
 			ImageIcon imageIcon = new ImageIcon(this.getClass().getResource(file));
 			theGalaxyIcons.add(imageIcon);
 		}

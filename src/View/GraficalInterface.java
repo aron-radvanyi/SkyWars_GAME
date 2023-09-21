@@ -1,7 +1,18 @@
+package View;
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+import Control.Play;
+import Control.Utility;
+import Model.AllyShip;
+import Model.BattleCruiser;
+import Model.BattleShooter;
+import Model.BattleStar;
+import Model.EnemyShip;
+import Model.Scores;
+
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.io.FileInputStream;
@@ -45,6 +56,8 @@ import javax.swing.AbstractButton;
 import javax.swing.BorderFactory;
 import javax.swing.border.Border;
 import javax.swing.SwingConstants;
+
+import Model.MasterShip;
 /*
  * this class visualises the game
  */
