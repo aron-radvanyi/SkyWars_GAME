@@ -10,6 +10,8 @@ Welcome to my personal project: SkyWars Java Game. This application is a compute
 
 The game consists of a sky, a master spaceship and several enemy spaceships (currently Battle Destroyer, Battle Star, and Battle Shooter). The player can start the game which will deploy a master ship (the player's ship) and the player can make turns which randomly move the master ship while each turn has a 1 in 3 chance that a random enemy ship will be deployed in the top left corner. The player can also change the ship mode of the master ship to defensive or offensive mode. If in defensive mode, the master ship will destroy the enemy ships in the position it flies if the number of enemy ships is less or equal to two. If more than two, the master ship will be destroyed and the game is over. If in offensive mode, the master ship can destroy three enemy ships. It is possible to save the game and there is a counter of each enemy ship destroyed. 
 
+## What did I learn from this project? 
+
 ## Game design 
 
 ### General 
