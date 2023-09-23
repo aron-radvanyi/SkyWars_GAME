@@ -15,8 +15,7 @@ The game consists of a sky, a master spaceship and several enemy spaceships (cur
 * **Polymorphic programming-->**
 A solid grasp on the understanding of polymorphic programming by using a number of design patterns such as the Strategy pattern, the Decorator pattern or the Observer pattern and advanced data structures.
 
-* **HTML Hacking Java-->**  
-Using HTML tags and external CDN links with http requests in Java and Eclipse IDE.
+* **HTML Hacking Java-->** Using HTML tags and external CDN links with http requests in Java and Eclipse IDE.
 
 * **Debugging with Eclipse IDE, Abstract problem solving and algorithm design-->**
 How to design a complex application with a simple algorithm to facilitate the game interactions between objects. Furthermore, due to the complexity of the app, a lot of time was spent on debugging and error handling. 
