@@ -39,7 +39,7 @@ The Grid object is an ArrayList of the Row objects, which further are ArrayList 
 
 * **Algorithms:**
 
-There is a simple algorithm written which dteremines which enemy ship is placed and also determines where the ships are moved during each turn.  
+There is a simple algorithm written which determines which enemy ship is placed and also determines where the ships are moved during each turn.  
 
 ### Grafical User Interface (GUI)
 Here is a screenshot of the GUI: 
